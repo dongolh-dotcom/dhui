@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "stacked-card",
+  "type": "registry:component",
+  "title": "stacked card",
+  "description": "stacked card Layout with hover animations grayscale effects",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "button",
+    "stacked",
+    "label",
+    "textarea",
+    "card"
+  ],
+  "files": [
+    {
+      "path": "src/registry/default/examples/stacked-card-demo.tsx",
+      "content": "\"use client\";\n\nimport DisplayCards from \"../ui/stacked-card\";\nimport { Sparkles } from \"lucide-react\";\n\nconst defaultCards = [\n  {\n    icon: <Sparkles className=\"size-4 text-blue-300\" />,\n    title: \"Featured\",\n    description: \"Discover amazing content\",\n    date: \"Just now\",\n    iconClassName: \"text-blue-500\",\n    titleClassName: \"text-blue-500\",\n    className:\n      \"[grid-area:stack] hover:-translate-y-10 before:absolute before:w-[100%] before:outline-1 before:rounded-xl before:outline-border before:h-[100%] before:content-[''] before:bg-blend-overlay before:bg-background/50 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0\",\n  },\n  {\n    icon: <Sparkles className=\"size-4 text-blue-300\" />,\n    title: \"Popular\",\n    description: \"Trending this week\",\n    date: \"2 days ago\",\n    iconClassName: \"text-blue-500\",\n    titleClassName: \"text-blue-500\",\n    className:\n      \"[grid-area:stack] translate-x-12 translate-y-10 hover:-translate-y-1 before:absolute before:w-[100%] before:outline-1 before:rounded-xl before:outline-border before:h-[100%] before:content-[''] before:bg-blend-overlay before:bg-background/50 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0\",\n  },\n  {\n    icon: <Sparkles className=\"size-4 text-blue-300\" />,\n    title: \"New\",\n    description: \"Latest updates and features\",\n    date: \"Today\",\n    iconClassName: \"text-blue-500\",\n    titleClassName: \"text-blue-500\",\n    className:\n      \"[grid-area:stack] translate-x-24 translate-y-20 hover:translate-y-10\",\n  },\n];\n\nfunction DisplayCardsDemo() {\n  return (\n    <div className=\"flex min-h-[400px] w-full items-center justify-center py-20\">\n      <div className=\"w-full max-w-3xl\">\n        <DisplayCards cards={defaultCards} />\n      </div>\n    </div>\n  );\n}\n\nexport { DisplayCardsDemo };",
+      "type": "registry:component"
+    }
+  ]
+}
