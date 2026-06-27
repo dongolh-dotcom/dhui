@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/hj/Downloads/dhui/src/registry/default/examples/glsl-hills-demo.tsx"],"sourcesContent":["import { GLSLHills } from \"../ui/glsl-hills\";\n\nexport default function DemoOne() {\n  return (\n    <div className=\"relative flex h-full w-full flex-col items-center justify-center overflow-hidden \">\n      <GLSLHills />\n      <div className=\"space-y-6 pointer-events-none z-10 text-center absolute\">\n        <h1 className=\"font-semibold text-7xl whitespace-pre-wrap\">\n          <span className=\"italic text-6xl font-thin\">Designs That Speak <br/> </span>\n          Louder Than Words\n        </h1>\n        <p className=\"text-sm text-primary/60\">\n          We craft stunning visuals and user - friendly experiences that  <br/>  help your brand stand out and connect with your audience.\n        </p>\n      </div> \n    </div>\n  )\n}\n\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8VAAC;QAAI,WAAU;;0BACb,8VAAC,qJAAA,CAAA,YAAS;;;;;0BACV,8VAAC;gBAAI,WAAU;;kCACb,8VAAC;wBAAG,WAAU;;0CACZ,8VAAC;gCAAK,WAAU;;oCAA4B;kDAAmB,8VAAC;;;;;oCAAI;;;;;;;4BAAQ;;;;;;;kCAG9E,8VAAC;wBAAE,WAAU;;4BAA0B;0CAC2B,8VAAC;;;;;4BAAI;;;;;;;;;;;;;;;;;;;AAK/E;KAfwB","debugId":null}}]
+}

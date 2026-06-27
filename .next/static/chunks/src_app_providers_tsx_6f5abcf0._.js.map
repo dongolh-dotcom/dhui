@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/hj/Downloads/dhui/src/app/providers.tsx"],"sourcesContent":["// app/providers.tsx\n\"use client\";\n\nimport * as React from \"react\";\nimport { ThemeProvider as NextThemesProvider } from \"next-themes\";\n\nexport function Providers({ children }: { children: React.ReactNode }) {\n  return (\n    <NextThemesProvider \n      attribute=\"data-theme\" \n      defaultTheme=\"system\" \n      enableSystem\n    >\n      {children}\n    </NextThemesProvider>\n  );\n}\n"],"names":[],"mappings":"AAAA,oBAAoB;;;;;AAIpB;AAHA;;;AAKO,SAAS,UAAU,EAAE,QAAQ,EAAiC;IACnE,qBACE,8VAAC,2RAAA,CAAA,gBAAkB;QACjB,WAAU;QACV,cAAa;QACb,YAAY;kBAEX;;;;;;AAGP;KAVgB","debugId":null}}]
+}

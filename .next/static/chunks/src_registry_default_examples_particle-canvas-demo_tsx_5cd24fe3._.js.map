@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/hj/Downloads/dhui/src/registry/default/examples/particle-canvas-demo.tsx"],"sourcesContent":["// demo.tsx\nimport { ParticleCanvas } from \"../ui/particle-canvas-1\";\n\nexport default function DemoOne() {\n  return (\n    <div className=\"relative flex h-screen w-full flex-col items-center justify-center overflow-hidden\">\n      <ParticleCanvas />\n      <span className=\"pointer-events-none z-10 text-center text-7xl leading-none font-semibold tracking-tighter whitespace-pre-wrap\">\n        Particle Canvas\n      </span>\n    </div>\n  );\n}\n\n"],"names":[],"mappings":"AAAA,WAAW;;;;;AACX;;;AAEe,SAAS;IACtB,qBACE,8VAAC;QAAI,WAAU;;0BACb,8VAAC,+JAAA,CAAA,iBAAc;;;;;0BACf,8VAAC;gBAAK,WAAU;0BAAgH;;;;;;;;;;;;AAKtI;KATwB","debugId":null}}]
+}
