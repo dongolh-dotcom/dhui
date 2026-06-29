@@ -1,4 +1,7 @@
 {
+<<<<<<< HEAD
   "/docs/[[...slug]]/page": "app/docs/[[...slug]]/page.js",
+=======
+>>>>>>> 3f53f4b07c0801627c88409563d9fb9495735852
   "/page": "app/page.js"
 }

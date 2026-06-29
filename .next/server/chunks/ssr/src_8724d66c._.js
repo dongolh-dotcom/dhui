@@ -26,8 +26,13 @@ const Index = {
             }
         ]
     },
+<<<<<<< HEAD
     "stacked-card": {
         name: "stacked-card",
+=======
+    "stacked card": {
+        name: "stacked card",
+>>>>>>> 3f53f4b07c0801627c88409563d9fb9495735852
         description: "stacked card Layout with hover animations grayscale effects",
         type: "registry:component",
         files: [
@@ -88,13 +93,22 @@ const Index = {
         component: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$3$2e$8_$40$babel$2b$core$40$7$2e$27$2e$1_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["lazy"])(()=>__turbopack_context__.r("[project]/src/registry/default/examples/floating-label-input-demo.tsx [app-ssr] (ecmascript, async loader)")(__turbopack_context__.i)),
         source: "import { FloatingInput } from '../ui/floating-label-input';\n\nexport default function FloatingLabelInputDemo() {\n  return <FloatingInput label='Demo' />;\n}\n"
     },
+<<<<<<< HEAD
     "stacked-card": {
         name: "stacked-card",
+=======
+    "stacked card": {
+        name: "stacked card",
+>>>>>>> 3f53f4b07c0801627c88409563d9fb9495735852
         description: "stacked card Layout with hover animations grayscale effects",
         type: "registry:component",
         files: [
             {
+<<<<<<< HEAD
                 path: "src/registry/default/examples/stacked-card-demo.tsx",
+=======
+                path: "src/registry/default/examples/stacked-card.tsx",
+>>>>>>> 3f53f4b07c0801627c88409563d9fb9495735852
                 content: "\"use client\";\n\nimport DisplayCards from \"../ui/stacked-card\";\nimport { Sparkles } from \"lucide-react\";\n\nconst defaultCards = [\n  {\n    icon: <Sparkles className=\"size-4 text-blue-300\" />,\n    title: \"Featured\",\n    description: \"Discover amazing content\",\n    date: \"Just now\",\n    iconClassName: \"text-blue-500\",\n    titleClassName: \"text-blue-500\",\n    className:\n      \"[grid-area:stack] hover:-translate-y-10 before:absolute before:w-[100%] before:outline-1 before:rounded-xl before:outline-border before:h-[100%] before:content-[''] before:bg-blend-overlay before:bg-background/50 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0\",\n  },\n  {\n    icon: <Sparkles className=\"size-4 text-blue-300\" />,\n    title: \"Popular\",\n    description: \"Trending this week\",\n    date: \"2 days ago\",\n    iconClassName: \"text-blue-500\",\n    titleClassName: \"text-blue-500\",\n    className:\n      \"[grid-area:stack] translate-x-12 translate-y-10 hover:-translate-y-1 before:absolute before:w-[100%] before:outline-1 before:rounded-xl before:outline-border before:h-[100%] before:content-[''] before:bg-blend-overlay before:bg-background/50 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0\",\n  },\n  {\n    icon: <Sparkles className=\"size-4 text-blue-300\" />,\n    title: \"New\",\n    description: \"Latest updates and features\",\n    date: \"Today\",\n    iconClassName: \"text-blue-500\",\n    titleClassName: \"text-blue-500\",\n    className:\n      \"[grid-area:stack] translate-x-24 translate-y-20 hover:translate-y-10\",\n  },\n];\n\nfunction DisplayCardsDemo() {\n  return (\n    <div className=\"flex min-h-[400px] w-full items-center justify-center py-20\">\n      <div className=\"w-full max-w-3xl\">\n        <DisplayCards cards={defaultCards} />\n      </div>\n    </div>\n  );\n}\n\nexport { DisplayCardsDemo };",
                 type: "registry:component"
             }

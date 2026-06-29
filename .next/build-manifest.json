@@ -1,6 +1,25 @@
 {
   "pages": {
+<<<<<<< HEAD
     "/_app": []
+=======
+    "/_app": [
+      "static/chunks/[root-of-the-server]__a804598e._.js",
+      "static/chunks/a14e7_react-dom_638ad3bb._.js",
+      "static/chunks/node_modules__pnpm_51c25b77._.js",
+      "static/chunks/[root-of-the-server]__49fd8634._.js",
+      "static/chunks/pages__app_5771e187._.js",
+      "static/chunks/pages__app_be619759._.js"
+    ],
+    "/_error": [
+      "static/chunks/[root-of-the-server]__ff474c5c._.js",
+      "static/chunks/a14e7_react-dom_638ad3bb._.js",
+      "static/chunks/node_modules__pnpm_51c25b77._.js",
+      "static/chunks/[root-of-the-server]__923cb372._.js",
+      "static/chunks/pages__error_5771e187._.js",
+      "static/chunks/pages__error_5a3ae4fd._.js"
+    ]
+>>>>>>> 3f53f4b07c0801627c88409563d9fb9495735852
   },
   "devFiles": [],
   "ampDevFiles": [],

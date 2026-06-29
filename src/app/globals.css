@@ -3,8 +3,16 @@
 @import 'fumadocs-ui/css/preset.css';
 @import 'tw-animate-css';
 @plugin "daisyui";
+<<<<<<< HEAD
 @plugin "daisyui" {
   themes: light --default, luxury;
+=======
+@plugin "daisyui/theme" {
+  name: "luxury";
+  default: false;
+  color-scheme: dark;
+  /* ... or simply ensure you're importing all themes */
+>>>>>>> 3f53f4b07c0801627c88409563d9fb9495735852
 }
 /* Explicitly bind Tailwind's `dark:` modifier to next-theme's data-theme attribute */
 /* @variant dark (&:where([data-theme="dark"], [data-theme="dark"] *)); */

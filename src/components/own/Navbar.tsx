@@ -1,6 +1,10 @@
 import React from 'react'
 import Link from "next/link"
+<<<<<<< HEAD
 import { ThemeToggle } from "./ThemeToggle";
+=======
+import ThemeToggle from "./ThemeToggle";
+>>>>>>> 3f53f4b07c0801627c88409563d9fb9495735852
 const Navbar = () => {
   return (
     <>
